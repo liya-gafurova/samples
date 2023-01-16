@@ -23,10 +23,6 @@ class Example(BaseModel):
     text: Optional[TextInfo]
 
 
-class DataUnit(BaseModel):
-    prompt: Optional[str]
-    generated_sequence: Optional[str]
-
 
 patterns = {
     "title": r'title: <(.*?)>',
